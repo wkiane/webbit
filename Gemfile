@@ -8,6 +8,8 @@ gem 'rails', '~> 6.0.0.rc2'
 
 # custom
 gem 'devise'
+gem 'carrierwave', '~> 2.0'
+gem 'mini_magick', '~> 4.9', '>= 4.9.5'
 
 
 # Use postgresql as the database for Active Record
