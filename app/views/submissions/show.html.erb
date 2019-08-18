@@ -16,7 +16,7 @@
 
 <p>
   <strong>Image:</strong>
-   <% if @submission.submission_image %>
+  <% if @submission.submission_image.large.url %>
     <%= image_tag @submission.submission_image.large.url, width: 400 %>
   <% end %>
 </p>

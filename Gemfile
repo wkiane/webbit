@@ -10,6 +10,8 @@ gem 'rails', '~> 6.0.0.rc2'
 gem 'devise'
 gem 'carrierwave', '~> 2.0'
 gem 'mini_magick', '~> 4.9', '>= 4.9.5'
+gem 'valid_url', '~> 0.0.4'
+gem 'inline_svg', '~> 1.5', '>= 1.5.2'
 
 
 # Use postgresql as the database for Active Record
